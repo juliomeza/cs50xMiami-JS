@@ -33,4 +33,4 @@ alert("The circumference is " + circumference + "\nThe area is " + area);
 var celsius = 35;
 var fahrenheit = 55;
 
-alert(celsius + "C is " + ((celsius * 9 / 5) + 32) + "F\n" + fahrenheit + "F is " + ((fahrenheit - 32) * 5 / 9) + "C");
+alert(celsius + "\u00B0C is " + ((celsius * 9 / 5) + 32) + "\u00B0F\n" + fahrenheit + "\u00B0F is " + ((fahrenheit - 32) * 5 / 9) + "\u00B0C");
