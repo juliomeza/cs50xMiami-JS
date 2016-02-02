@@ -1,11 +1,4 @@
-/*
-What number's bigger?
-Write a function named greaterNum that:
-- takes 2 arguments, both numbers.
-- returns whichever number is the greater (higher) number.
-Call that function 2 times with different number pairs,
-and log the output to make sure it works (e.g. "The greater number of 5 and 10 is 10.").
-*/
+// What number's bigger?
 
 function greaterNum(number1, number2){
 	var greater = 0;
@@ -19,15 +12,7 @@ function greaterNum(number1, number2){
 greaterNum(10, 5);
 greaterNum(3, 4);
 
-/*
-The World Translator
-Write a function named helloWorld that:
-- takes 1 argument, a language code (e.g. "es", "de", "en")
-- returns "Hello, World" for the given language, for at least 3 languages.
-  It should default to returning English.
-Call that function for each of the supported languages
-and log the result to make sure it works.
-*/
+// The World Translator
 
 function helloWorld(language){
 	var text = "";
@@ -46,13 +31,7 @@ helloWorld("es");
 helloWorld("en");
 helloWorld("es");
 
-/*
-The Grade Assigner
-Write a function named assignGrade that:
-- takes 1 argument, a number score.
-- returns a grade for the score, either "A", "B", "C", "D", or "F".
-Call that function for a few different scores and log the result to make sure it works.
-*/
+// The Grade Assigner
 
 function assignGrade(score){
 	var grade = ""
@@ -74,14 +53,7 @@ assignGrade(90);
 assignGrade(55);
 assignGrade(70);
 
-/*
-The Pluralizer
-Write a function named pluralize that:
-- takes 2 arguments, a noun and a number.
-- returns the number and pluralized form, like "5 cats" or "1 dog".
-Call that function for a few different scores and log the result to make sure it works.
-- Bonus: Make it handle a few collective nouns like "sheep" and "geese".
-*/
+// The Pluralizer
 
 function pluralize(noun, number){
 	if (number > 1)
@@ -94,12 +66,7 @@ pluralize("cat", 2);
 pluralize("dog", 1);
 pluralize("car", 15);
 
-/*
-The even/odd reporter
-- Write a for loop that will iterate from 0 to 20.
-- For each iteration, it will check if the current number is even or odd,
-  and report that to the screen (e.g. "2 is even").
-*/
+// The even/odd reporter
 
 for (var num = 0; num <= 20; num++){
 	if (num === 0)
